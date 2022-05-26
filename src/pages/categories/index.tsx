@@ -1,5 +1,5 @@
-import { Category } from '@prisma/client';
 import Link from 'next/link';
+import { Category } from '.prisma/client';
 import React, { FC, useState } from 'react';
 import Button from '../../components/Button';
 import Card from '../../components/Card';

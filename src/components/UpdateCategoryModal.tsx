@@ -1,5 +1,6 @@
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Category, Prisma } from '@prisma/client';
+import { Category } from '.prisma/client';
+import { Prisma } from '@prisma/client';
 import React, { FC, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { trpc } from '../utils/trpc';

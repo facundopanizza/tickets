@@ -1,4 +1,4 @@
-import { Category } from '@prisma/client';
+import { Category } from '.prisma/client';
 import Link from 'next/link';
 import React, { FC } from 'react';
 import { trpc } from '../utils/trpc';
